@@ -1,17 +1,34 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter } from "react-router-dom";
 
+import { createStore, applyMiddleware } from "redux";
+import { Provider } from "react-redux";
+import thunk from "redux-thunk";
+
+import reducer from "./Reducers/Index";
+
+import Application from "./App";
+
+// import fontawesome from "@fortawesome/fontawesome";
+// import brands from "@fortawesome/fontawesome-free-brands";
+// import fas from "@fortawesome/fontawesome-free-solid";
+// import far from "@fortawesome/fontawesome-free-regular";
+
+// fontawesome.library.add(brands, fas, far);
+
+// import "./styles.scss";
+
+const store = createStore(reducer, applyMiddleware(thunk));
+
+const rootElement = document.getElementById("root");
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Provider store={store}>
+        <Application />
+      </Provider>
+    </BrowserRouter>
   </React.StrictMode>,
-  document.getElementById('root')
+  rootElement
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

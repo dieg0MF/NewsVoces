@@ -1,0 +1,22 @@
+.footer {
+  background-color: var(--primary-bg-color);
+  font-family: "Grandstander", cursive;
+
+  padding: 0.4em;
+}
+.redes {
+  margin-left: 0px;
+}
+.redes .redesItems {
+  margin: 0.4em;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 690px) {
+  .redes .redesItems {
+    margin: 0 0.4em;
+    font-size: 1em;
+    cursor: pointer;
+  }
+}

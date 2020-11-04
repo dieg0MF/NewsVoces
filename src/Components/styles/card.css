@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda&family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500&display=swap");
+.Card {
+  background-color: rgba(244, 240, 242, 0.5);
+  border: var(--main-bg-color) solid 1px;
+  border-radius: 15px;
+  width: 300px;
+  margin: 20px;
+  padding: 15px;
+}
+.Card img {
+  border-radius: 15px;
+  margin: 15px;
+}
+.Card p {
+  font-family: "Markazi Text", serif;
+  font-size: 1.5em;
+}
+
+.Card a {
+  text-decoration: none;
+  font-family: "Merienda", cursive;
+  font-size: 1em;
+}
+.Card a:hover {
+  font-size: 1.2em;
+}

@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Grandstander&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grandstander&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* --main-bg-color: #cb8655; */
+  /* --primary-bg-color: #7e8e65; */
+  --body-bg-color: #e8dfce;
+
+  --primary-bg-color: #666999;
+  --main-bg-color: #b2c1d3;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.searchBar {
+  background-color: var(--main-bg-color);
+  height: 2em;
+  padding: 0.1em;
+  display: flex;
+  justify-content: space-around;
+}
+.searchBar button {
+  height: 90%;
+  text-transform: uppercase;
+
+  border-radius: 10px;
+  border: 1px;
+  background-color: var(--main-bg-color);
+  padding: 0.7em;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Grandstander", cursive;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+.searchBar button:hover {
+  /* background-color: #7e8e65; */
+  background-color: #666999;
+}
+
+.body {
+  background-color: var(--body-bg-color);
+
+  display: flex;
+
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  flex: 1;
+  overflow-y: scroll;
+}
+.body h3 {
+  font-family: "Grandstander", cursive;
+  margin: 2.5em;
+  text-transform: uppercase;
+}
+.Cards {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.body button {
+  height: 40px;
+  border: #cb8655 solid 1px;
+  border-radius: 20px;
+  background-color: #b2c1d3;
+  padding: 2px 40px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+  .searchBar button {
+    font-size: 0.6em;
+    padding: 0px;
+  }
+  .body h3 {
+    margin: 1em;
+  }
+}
