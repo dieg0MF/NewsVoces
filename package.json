@@ -2,7 +2,7 @@
   "name": "voces_news",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://dieg0MF.guithub.io/voces",
+  "homepage": "http://dieg0MF.guithub.io/NewsVoces",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
