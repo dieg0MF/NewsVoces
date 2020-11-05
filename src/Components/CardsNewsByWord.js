@@ -4,6 +4,7 @@ import CardNew from "./Card";
 import { connect } from "react-redux";
 import { fetchNewsWord } from "../Actions/Actions";
 import Loading from "./Loading";
+import wrong from  "./assets/Images/detective.png"
 
 class News extends React.Component {
   state = {};
@@ -25,7 +26,7 @@ class News extends React.Component {
       return (
         <>
           <img
-            src={require("../Images/detective.png")}
+            src={wrong}
             alt="Error ocurred"
             width="300"
             height="250"

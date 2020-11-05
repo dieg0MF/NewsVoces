@@ -1,12 +1,13 @@
 import React from "react";
 import "./styles/error.css";
 import { Link } from "react-router-dom";
+import WrongWay from  "./assets/Images/WrongWay.png"
 
 const Error = () => {
   return (
     <div className="error">
       <img
-        src={require("../Images/WrongWay.png")}
+        src={WrongWay}
         alt="Error ocurred"
         width="300"
         height="250"

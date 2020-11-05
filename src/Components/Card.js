@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/card.css";
+import wrong from  "./assets/Images/NoImageAvailable.jpg"
 
 const News = ({ news }) => {
   return (
@@ -9,8 +10,8 @@ const News = ({ news }) => {
         <img src={news.img_url} alt="" width="200" height="200" />
       ) : (
         <img
-          src={require("../Images/No-image-available.jpg")}
-          alt=""
+          src={wrong}
+           alt=""
           width="200"
           height="200"
         />

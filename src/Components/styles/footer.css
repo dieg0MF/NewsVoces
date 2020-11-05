@@ -6,17 +6,20 @@
 }
 .redes {
   margin-left: 0px;
+  display: table;   /* Allow the centering to work */
+	margin: 0 auto;
 }
-.redes .redesItems {
-  margin: 0.4em;
-  font-size: 1em;
-  cursor: pointer;
+.redes ul {
+
+	list-style: none;
+	padding-top: 0.5em;
+}
+.redes ul li{
+  display: inline;
+  margin: 0.5em;
+  font-size: 1.5em;
 }
 
 @media screen and (max-width: 690px) {
-  .redes .redesItems {
-    margin: 0 0.4em;
-    font-size: 1em;
-    cursor: pointer;
-  }
+
 }

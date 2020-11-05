@@ -10,14 +10,7 @@ import reducer from "./Reducers/Index";
 
 import Application from "./App";
 
-// import fontawesome from "@fortawesome/fontawesome";
-// import brands from "@fortawesome/fontawesome-free-brands";
-// import fas from "@fortawesome/fontawesome-free-solid";
-// import far from "@fortawesome/fontawesome-free-regular";
 
-// fontawesome.library.add(brands, fas, far);
-
-// import "./styles.scss";
 
 const store = createStore(reducer, applyMiddleware(thunk));
 
