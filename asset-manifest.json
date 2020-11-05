@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/NewsVoces/static/css/main.3dcfa623.chunk.css",
+    "main.js": "/NewsVoces/static/js/main.43c0ec5a.chunk.js",
+    "main.js.map": "/NewsVoces/static/js/main.43c0ec5a.chunk.js.map",
+    "runtime-main.js": "/NewsVoces/static/js/runtime-main.8d547bcd.js",
+    "runtime-main.js.map": "/NewsVoces/static/js/runtime-main.8d547bcd.js.map",
+    "static/js/2.0026b1e8.chunk.js": "/NewsVoces/static/js/2.0026b1e8.chunk.js",
+    "static/js/2.0026b1e8.chunk.js.map": "/NewsVoces/static/js/2.0026b1e8.chunk.js.map",
+    "index.html": "/NewsVoces/index.html",
+    "static/css/main.3dcfa623.chunk.css.map": "/NewsVoces/static/css/main.3dcfa623.chunk.css.map",
+    "static/js/2.0026b1e8.chunk.js.LICENSE.txt": "/NewsVoces/static/js/2.0026b1e8.chunk.js.LICENSE.txt",
+    "static/media/NoImageAvailable.09ea9f6b.jpg": "/NewsVoces/static/media/NoImageAvailable.09ea9f6b.jpg",
+    "static/media/WrongWay.6835db4b.png": "/NewsVoces/static/media/WrongWay.6835db4b.png",
+    "static/media/detective.90adf4f6.png": "/NewsVoces/static/media/detective.90adf4f6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d547bcd.js",
+    "static/js/2.0026b1e8.chunk.js",
+    "static/css/main.3dcfa623.chunk.css",
+    "static/js/main.43c0ec5a.chunk.js"
+  ]
+}
