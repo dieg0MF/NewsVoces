@@ -1,4 +1,5 @@
  React Proyect developed usisng canillita Api:  https://canillitapp.com/. Developed with React Redux, Redux thunk, and React Router.
+ https://dieg0mf.github.io/NewsVoces/
 
 
 # Getting Started with Create React App
