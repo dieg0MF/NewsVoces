@@ -1,3 +1,6 @@
+ React Proyect developed usisng canillita Api:  https://canillitapp.com/. Developed with React Redux, Redux thunk, and React Router.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
